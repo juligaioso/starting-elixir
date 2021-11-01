@@ -72,3 +72,21 @@ true
 iex> 2 === 2.0
 false
 ```
+
+## Interpolação de strings
+
+A interpolação de strings é uma forma de concatenar strings com variáveis. Para interpolar em elixir, basta escrever o nome da variável dentro de chaves, antecedida por uma hashtag.
+
+```elixir
+iex> nome = "Jehnny"
+iex> sobrenome = "Doe"
+iex> "Hello #{nome} #{sobrenome}"
+```
+## Concatenação de strings
+
+Em elixir, a concatenção de strings é feita com o operador `<>`.
+
+```elixir
+iex> nome =  "Jehnny Doe"
+iex> "Hello " <> nome
+```
